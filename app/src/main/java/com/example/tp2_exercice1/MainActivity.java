@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     EditText login;
     EditText password;
     TextView textview;
-
+    // the clone it is ok
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
