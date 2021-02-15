@@ -7,22 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="196dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="107dp"
-        android:layout_marginLeft="107dp"
-        android:layout_marginEnd="108dp"
-        android:layout_marginRight="108dp"
-        android:text="Anthenticate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.664" />
-
     <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
@@ -53,9 +37,18 @@
         android:id="@+id/textView"
         android:layout_width="227dp"
         android:layout_height="66dp"
-        android:text="Samantha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="331dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="191dp"
+        android:layout_height="55dp"
+        android:text="Authentification"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
